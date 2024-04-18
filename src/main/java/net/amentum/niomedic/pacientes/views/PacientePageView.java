@@ -22,4 +22,5 @@ public class PacientePageView {
    private String curp;
    private Long numeroExpediente;
    private Boolean esCanalizado;
+   private Boolean pacienteAtendido;
 }
