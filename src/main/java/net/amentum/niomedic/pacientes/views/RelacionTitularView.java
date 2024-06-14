@@ -9,12 +9,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class RelacionTutoresView {
-    private Integer idRelacion;
-    private String idTutor;
-    private String idPacTutor;
-    private String parentesco;
-    private String nombreTutor;
+public class RelacionTitularView {
+    private String idPaciente;
+    private String idPacienteTitular;
+    private String idPacienteBeneficiario;
+    private String nombreCompleto;
     private String telefono;
     private String email;
+    private String parentesco;
 }
