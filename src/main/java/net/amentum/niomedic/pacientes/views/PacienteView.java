@@ -128,7 +128,7 @@ public class PacienteView implements Serializable {
    private String userName;
 
    @ApiModelProperty(allowEmptyValue = true)
-   private Boolean esTutor;
+   private Boolean esTitular;
    @ApiModelProperty(allowEmptyValue = true)
    private Boolean pacienteAtendido;
    @ApiModelProperty(allowEmptyValue = true)
