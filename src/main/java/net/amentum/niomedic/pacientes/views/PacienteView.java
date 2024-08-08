@@ -215,6 +215,7 @@ public class PacienteView implements Serializable {
          ", numeroAfiliacion='" + numeroAfiliacion + '\'' +
          ", numeroExpediente=" + numeroExpediente +
          ", userName='" + userName + '\'' +
+         ", idDevice='" + idDevice + '\'' +
          //campos agregados  en el sprint 2 13/04/2021
          ",genero="+genero+'\''+
          ", claveEdad="+claveEdad+'\''+
