@@ -13,16 +13,8 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @ApiModel(description = "Los datos que se muestran en los page/search")
-public class PacientePageView {
-   private String nombre;
-   private Date fechaCreacion;
-   private long idUsuario;
-   private String userName;
+public class PacientesGruposView {
    private String idPaciente;
-   private String curp;
-   private Long numeroExpediente;
-   private Boolean esCanalizado;
-   private Boolean pacienteAtendido;
    private Integer idGroup;
-   private String groupName;
+   private Integer idPacientesGrupos;
 }
