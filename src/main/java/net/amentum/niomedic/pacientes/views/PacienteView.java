@@ -128,7 +128,7 @@ public class PacienteView implements Serializable {
    private String userName;
 
    @ApiModelProperty(allowEmptyValue = true)
-   private Boolean esTitular;
+   private Boolean es_titular;
    @ApiModelProperty(allowEmptyValue = true)
    private Boolean pacienteAtendido;
    @ApiModelProperty(allowEmptyValue = true)
@@ -206,6 +206,7 @@ public class PacienteView implements Serializable {
          ", rfc='" + rfc + '\'' +
          ", fechaCreacion=" + fechaCreacion +
          ", idUsuario=" + idUsuario +
+         ", es_titular=" + es_titular +
          ", activo=" + activo +
          ", pacienteAtendido=" + pacienteAtendido +
          ", padecimientoCronico='" + padecimientoCronico + '\'' +
