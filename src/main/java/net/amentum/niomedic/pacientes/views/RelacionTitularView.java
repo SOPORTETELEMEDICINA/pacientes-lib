@@ -10,11 +10,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class RelacionTitularView {
-    private String idPaciente;
     private String idPacienteTitular;
     private String idPacienteBeneficiario;
-    private String nombreCompleto;
-    private String telefono;
-    private String email;
     private String parentesco;
 }
