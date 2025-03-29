@@ -11,7 +11,7 @@ import lombok.ToString;
 @ToString
 public class RelacionTutoresView {
     private Integer idRelacion;
-    private String idTutor;
+    private Integer idTutor;
     private String idPacTutor;
     private String parentesco;
     private String nombreTutor;

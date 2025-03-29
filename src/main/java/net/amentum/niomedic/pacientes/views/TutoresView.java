@@ -10,7 +10,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class TutoresView {
-    private String idTutor;
+    private Integer idTutor;  // Cambia a Integer
     private String idPaciente;
     private String nombreTutor;
 }
