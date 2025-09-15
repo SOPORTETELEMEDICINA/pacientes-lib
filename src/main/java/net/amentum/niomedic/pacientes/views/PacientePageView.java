@@ -25,4 +25,5 @@ public class PacientePageView {
    private Boolean pacienteAtendido;
    private Integer idGroup;
    private String groupName;
+   private String idDevice;
 }
